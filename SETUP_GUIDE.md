@@ -233,11 +233,14 @@ git pull origin main
 
 # 2. Make your changes to files
 
-# 3. Stage and commit
+# 3. Check what changed
+git status
+
+# 4. Stage and commit
 git add .
 git commit -m "Description of changes"
 
-# 4. Push
+# 5. Push
 git push origin main
 ```
 

@@ -191,36 +191,7 @@ You need to authenticate with GitHub to push code. Choose one of these methods:
 
 ### .gitignore
 
-Create a `.gitignore` file to exclude files you don't want to push:
-
-```gitignore
-# Dependencies
-node_modules/
-vendor/
-
-# Build outputs
-dist/
-build/
-*.o
-*.exe
-
-# Environment files
-.env
-.env.local
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-```
+The repository includes a `.gitignore` file with common patterns for files that shouldn't be committed (dependencies, build artifacts, IDE files, etc.). Review and customize it for your specific project needs.
 
 ## Common Commands Cheat Sheet
 

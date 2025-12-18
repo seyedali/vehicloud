@@ -118,7 +118,8 @@ ssh -T git@github.com
 
 ```bash
 # Push rejected - need to pull first
-git pull origin main
+git pull --rebase origin main  # Preferred: keeps history cleaner
+# Or: git pull origin main      # Creates merge commit
 git push origin main
 
 # Merge conflicts
